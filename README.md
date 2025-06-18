@@ -41,9 +41,7 @@ This does:
     remember xdot is installed, it will show a graph of your synthesized logic.
 3.how it looks
 
-    ![image alt](https://github.com/Divyagupta004dg/barrel_shifter_project/blob/master/Screenshot%20from%202025-06-18%2016-18-39.png?raw=true)
-
-
+![Image](https://github.com/user-attachments/assets/e0786237-6c73-4169-9452-96d92b48c54d)
 4. FLOW OF TCL SHOULD BE SET IT GIVES MAJOR STEPS AUTOMATICALLY:
    
    i.e(flow.tcl -design barrel_shifter_project)
