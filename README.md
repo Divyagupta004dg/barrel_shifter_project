@@ -48,9 +48,13 @@ This does:
    i.e(flow.tcl -design barrel_shifter_project)
 Step	Stage	Description
 0	Verilog Linting:	Checks syntax, structure of your .v file using Verilator.
+
 1	Synthesis:	Converts Verilog to gate-level netlist using Yosys.
+
 2	Floorplanning:	Places core area, macros, and IO pins.
+
 3	Placement:	Places standard cells physically on chip.
+
 4	Clock Tree Synthesis:	Builds clock distribution network.
 5	Routing:	Connects wires between gates physically.
 6	DRC/LVS: Checks	Checks layout rules (DRC) and compares layout vs netlist (LVS).
