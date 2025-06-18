@@ -39,6 +39,8 @@ This does:
     yosys synth.ys
 
     remember xdot is installed, it will show a graph of your synthesized logic.
+
+    ![image alt](https://github.com/Divyagupta004dg/barrel_shifter_project/blob/master/Screenshot%20from%202025-06-18%2016-18-39.png?raw=true)
    
 
 
