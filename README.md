@@ -43,5 +43,5 @@ This does:
 
     ![image alt](https://github.com/Divyagupta004dg/barrel_shifter_project/blob/master/Screenshot%20from%202025-06-18%2016-18-39.png?raw=true)
    
-
+https://github.com/Divyagupta004dg/barrel_shifter_project/blob/cce7ca27152029f00a094f0929a57e774e5d6fea/Screenshot%20from%202025-06-18%2016-18-39.png
 
