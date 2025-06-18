@@ -39,4 +39,6 @@ This does:
     yosys synth.ys
 
     remember xdot is installed, it will show a graph of your synthesized logic.
+    ![Screenshot from 2025-06-18 15-44-35](https://github.com/user-attachments/assets/0c853e86-8832-4f37-b152-ad0b5c13367a)
+
 
