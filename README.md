@@ -49,6 +49,7 @@ This does:
    i.e(flow.tcl -design barrel_shifter_project)
    
 Step	Stage	Description
+
 0	Verilog Linting:	Checks syntax, structure of your .v file using Verilator.
 
 1	Synthesis:	Converts Verilog to gate-level netlist using Yosys.
@@ -69,7 +70,7 @@ Step	Stage	Description
 
 #IN TERMINAL BASH
 inside OpenLane container:
-bash:
+```bash
 cd ~/OpenLane
 make mount
 Then the prompt becomes:
