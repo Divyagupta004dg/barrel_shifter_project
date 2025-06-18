@@ -45,7 +45,9 @@ This does:
    
 
 4. FLOW OF TCL SHOULD BE SET IT GIVES MAJOR STEPS AUTOMATICALLY:
+   
    i.e(flow.tcl -design barrel_shifter_project)
+   
 Step	Stage	Description
 0	Verilog Linting:	Checks syntax, structure of your .v file using Verilator.
 
@@ -56,9 +58,13 @@ Step	Stage	Description
 3	Placement:	Places standard cells physically on chip.
 
 4	Clock Tree Synthesis:	Builds clock distribution network.
+
 5	Routing:	Connects wires between gates physically.
+
 6	DRC/LVS: Checks	Checks layout rules (DRC) and compares layout vs netlist (LVS).
+
 7	GDSII Generation:	Creates the final chip layout file (.gds).
+
 8	Reports and Exports:	Generates timing, area, power, and saves final layout/netlist.
 
 #IN TERMINAL BASH
