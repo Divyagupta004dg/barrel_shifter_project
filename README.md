@@ -69,6 +69,7 @@ Step	Stage	Description
 8	Reports and Exports:	Generates timing, area, power, and saves final layout/netlist.
 
 #IN TERMINAL BASH
+
 inside OpenLane container:
 ```bash
 cd ~/OpenLane
