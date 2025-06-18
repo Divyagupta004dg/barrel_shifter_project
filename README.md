@@ -42,7 +42,7 @@ This does:
 3.how it looks
 
     ![image alt](https://github.com/Divyagupta004dg/barrel_shifter_project/blob/master/Screenshot%20from%202025-06-18%2016-18-39.png?raw=true)
-   
+
 
 4. FLOW OF TCL SHOULD BE SET IT GIVES MAJOR STEPS AUTOMATICALLY:
    
