@@ -1,0 +1,16 @@
+# Yosys synthesis script for barrel_shifter
+
+# Read Verilog source
+read_verilog src/barrel_shifter.v
+
+# Perform hierarchy analysis
+hierarchy -check -top barrel_shifter
+
+# Run synthesis
+proc; opt; fsm; opt; techmap; opt
+
+# Show design hierarchy
+show
+
+# Write synthesized design to file
+write_verilog barrel_shifter_synth.v
