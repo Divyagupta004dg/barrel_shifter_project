@@ -38,3 +38,5 @@ This does:
     then run this
     yosys synth.ys
 
+    remember xdot is installed, it will show a graph of your synthesized logic.
+
