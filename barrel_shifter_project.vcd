@@ -1,0 +1,75 @@
+$date
+	Wed Jun 18 10:31:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_barrel_shifter $end
+$var wire 32 ! data_out [31:0] $end
+$var reg 32 " data_in [31:0] $end
+$var reg 1 # dir $end
+$var reg 5 $ shift_amt [4:0] $end
+$scope module uut $end
+$var wire 32 % data_in [31:0] $end
+$var wire 1 # dir $end
+$var wire 5 & shift_amt [4:0] $end
+$var wire 32 ' data_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111 '
+b0 &
+b1111 %
+b0 $
+0#
+b1111 "
+b1111 !
+$end
+#10000
+b11110 !
+b11110 '
+b1 $
+b1 &
+#20000
+b111100 !
+b111100 '
+b10 $
+b10 &
+#30000
+b1 !
+b1 '
+1#
+b11 $
+b11 &
+#40000
+b0 !
+b0 '
+b100 $
+b100 &
+#50000
+b111100000 !
+b111100000 '
+0#
+b101 $
+b101 &
+#60000
+b0 !
+b0 '
+1#
+b110 $
+b110 &
+#70000
+b1111 !
+b1111 '
+0#
+b0 $
+b0 &
+#80000
