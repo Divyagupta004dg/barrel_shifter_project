@@ -21,6 +21,7 @@ It supports left and right shifting based on a `dir` signal.
    
 2.Create a synth.ys file first:
 in terminal type
+
 read_verilog src/barrel_shifter.v
 synth -top barrel_shifter
 write_verilog barrel_shifter_synth.v
