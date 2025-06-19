@@ -43,6 +43,15 @@ This does:
 
 ![Image](https://github.com/user-attachments/assets/e0786237-6c73-4169-9452-96d92b48c54d)
 
+**🔹 Yosys (Synthesis Tool)**
+
+    Input: RTL (Verilog)
+
+    Output: Gate-level netlist (.v)
+
+    Used in: Logic Synthesis 
+
+
 **4. FLOW OF TCL SHOULD BE SET IT GIVES MAJOR STEPS AUTOMATICALLY**
 
    
@@ -68,6 +77,24 @@ Step	Stage	Description
 
 8	Reports and Exports:	Generates timing, area, power, and saves final layout/netlist.
 
+**🔹 OpenLane**
+
+    Wrapper for entire flow (synthesis → GDSII)
+
+    Automates each step using:
+
+        Yosys (synthesis)
+
+        OpenROAD (placement, CTS, routing)
+
+        Magic, Netgen, KLayout
+
+    You run this inside Docker
+
+    Used in: Almost every step post-RTL
+
+
+
 #IN TERMINAL BASH
 
 inside OpenLane container:
@@ -81,5 +108,28 @@ cd designs/barrel_shifter_project
 flow.tcl -design barrel_shifter_project
 
 
+**🔹 Magic (Layout Tool)**
 
+    Visual & DRC tool
+
+    Used for:
+
+        Viewing .def, .mag files (Step 2-5)
+
+        Doing DRC (Design Rule Check)
+
+    Also used to extract layout netlist for LVS
+
+
+**🔹 KLayout (GDSII Viewer)**
+
+    Viewer for .gds layout file
+
+    Best for:
+
+        Final layout inspection
+
+        3D visualization (with plugin) also in floorplan
+
+    Used in: Step 7(Final layout export)
 
