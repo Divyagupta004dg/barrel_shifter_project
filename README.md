@@ -135,6 +135,7 @@ flow.tcl -design barrel_shifter_project
 
 **5.FLOORPLAN LAYOUT**
 MAGIC 
+![Image](https://github.com/user-attachments/assets/a7038650-0005-459c-a066-9aed300188d5)
 
 KLAYOUT
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
