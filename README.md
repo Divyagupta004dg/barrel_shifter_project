@@ -108,6 +108,8 @@ cd designs/barrel_shifter_project
 flow.tcl -design barrel_shifter_project
 
 
+**5.FLOORPLAN LAYOUT**
+
 **🔹 Magic (Layout Tool)**
 
     Visual & DRC tool
