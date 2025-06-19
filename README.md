@@ -135,6 +135,7 @@ flow.tcl -design barrel_shifter_project
 
 **5.FLOORPLAN LAYOUT**
 Floorplan View (Schematic / DEF)
+
 📍 What it shows:
 
     Core area
@@ -160,6 +161,7 @@ KLAYOUT
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
 
 **6.PLACEMENT VIEW** (Schematic / DEF)
+
 📍 What it shows:
 
     All standard cells placed physically inside rows
@@ -169,8 +171,12 @@ KLAYOUT
     Power rails and cell rows from the floorplan are still there
 
     No wires are routed yet
+    
 🧠 Purpose:
 
     Optimizes cell locations to reduce wire length and improve performance.
 
     Prepares for routing.
+
+   ![Image](https://github.com/user-attachments/assets/9556e958-cf8d-4891-bf13-d16d33587325)
+   
