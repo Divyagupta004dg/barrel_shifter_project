@@ -1,6 +1,6 @@
 # 32-bit Bidirectional Barrel Shifter in Verilog
 
-This project implements a 32-bit bidirectional barrel shifter in Verilog and takes it all the way through the RTL to GDSII flow using the OpenLane digital backend tools and the Sky130 open-source PDK.t supports left and right shifting based on a `dir` signal.
+This project implements a 32-bit bidirectional barrel shifter in Verilog and takes it all the way through the RTL to GDSII flow using the OpenLane digital backend tools and the Sky130 open-source PDK. It supports left and right shifting based on a `dir` signal.
 ### Why Use a Barrel Shifter?
 
 A Barrel Shifter is a high-speed combinational circuit used for shifting or rotating bits in digital data. Unlike traditional shifters, it allows multi-bit shifts or rotations in a single operation, making it ideal for applications that demand performance.
