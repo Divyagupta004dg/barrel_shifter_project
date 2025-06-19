@@ -134,6 +134,23 @@ flow.tcl -design barrel_shifter_project
     Used in: Step 7(Final layout export)
 
 **5.FLOORPLAN LAYOUT**
+Floorplan View (Schematic / DEF)
+📍 What it shows:
+
+    Core area
+
+    IO pins and pad locations
+
+    Power/ground rails (VDD/VSS stripes)
+
+    Empty rows for cells
+
+    Macros (if any)
+ 🧠 Purpose:
+
+    Defines the layout boundaries and initial infrastructure (like roads and zones).
+
+    Ensures enough space is reserved for logic, IO, and power.
 MAGIC 
 ![Image](https://github.com/user-attachments/assets/a7038650-0005-459c-a066-9aed300188d5)
 ![Image](https://github.com/user-attachments/assets/830bbcc0-be07-4d0a-bca9-e1d90fd13ece)
@@ -141,3 +158,19 @@ MAGIC
 KLAYOUT
 ![Image](https://github.com/user-attachments/assets/ebffd0ec-e90b-465c-a29e-34daf373ea69)
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
+
+**6.PLACEMENT VIEW** (Schematic / DEF)
+📍 What it shows:
+
+    All standard cells placed physically inside rows
+
+    Cells like mux, and, or, dff, etc. are now physically placed
+
+    Power rails and cell rows from the floorplan are still there
+
+    No wires are routed yet
+🧠 Purpose:
+
+    Optimizes cell locations to reduce wire length and improve performance.
+
+    Prepares for routing.
