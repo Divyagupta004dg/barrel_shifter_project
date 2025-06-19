@@ -155,7 +155,7 @@ flow.tcl -design barrel_shifter_project
 **5.FLOORPLAN LAYOUT**
 Floorplan View (Schematic / DEF)
 
-📍 What it shows:
+ What it shows:
 
     Core area
 
@@ -166,7 +166,7 @@ Floorplan View (Schematic / DEF)
     Empty rows for cells
 
     Macros (if any)
- 🧠 Purpose:
+  Purpose:
 
     Defines the layout boundaries and initial infrastructure (like roads and zones).
 
@@ -181,7 +181,7 @@ KLAYOUT
 
 **6.PLACEMENT VIEW** (Schematic / DEF)
 
-📍 What it shows:
+ What it shows:
 
     All standard cells placed physically inside rows
 
@@ -191,7 +191,7 @@ KLAYOUT
 
     No wires are routed yet
     
-🧠 Purpose:
+ Purpose:
 
     Optimizes cell locations to reduce wire length and improve performance.
 
@@ -219,3 +219,4 @@ Purpose:
     Prepares the layout for timing checks, parasitics, and final GDS export
 
 Routing is the step where your design becomes electrically connected — like completing the circuit puzzle on silicon.
+![Image](https://github.com/user-attachments/assets/c9c056d1-9789-443f-ab2d-a820e6bae723)
