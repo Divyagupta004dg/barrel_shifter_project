@@ -141,4 +141,3 @@ MAGIC
 KLAYOUT
 ![Image](https://github.com/user-attachments/assets/ebffd0ec-e90b-465c-a29e-34daf373ea69)
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
-![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
