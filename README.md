@@ -137,6 +137,7 @@ flow.tcl -design barrel_shifter_project
 MAGIC 
 ![Image](https://github.com/user-attachments/assets/a7038650-0005-459c-a066-9aed300188d5)
 ![Image](https://github.com/user-attachments/assets/830bbcc0-be07-4d0a-bca9-e1d90fd13ece)
+![Image](https://github.com/user-attachments/assets/3f6214af-1058-43bc-84d9-ad4e64ae0564)
 KLAYOUT
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
 ![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
