@@ -134,3 +134,5 @@ flow.tcl -design barrel_shifter_project
     Used in: Step 7(Final layout export)
 
 **5.FLOORPLAN LAYOUT**
+KLAYOUT
+![Image](https://github.com/user-attachments/assets/066dd69b-f00c-42ab-a930-c76ded7a7e0f)
