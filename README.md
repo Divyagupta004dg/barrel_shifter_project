@@ -106,9 +106,7 @@ OpenLane Container (1.1.1):/openlane%
 again bash:
 cd designs/barrel_shifter_project
 flow.tcl -design barrel_shifter_project
-
-
-**5.FLOORPLAN LAYOUT**
+```
 
 **🔹 Magic (Layout Tool)**
 
@@ -135,3 +133,4 @@ flow.tcl -design barrel_shifter_project
 
     Used in: Step 7(Final layout export)
 
+**5.FLOORPLAN LAYOUT**
