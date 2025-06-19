@@ -2,6 +2,18 @@
 
 This project implements a 32-bit bidirectional barrel shifter in Verilog.  
 It supports left and right shifting based on a `dir` signal.
+### Why Use a Barrel Shifter?
+
+A Barrel Shifter is a high-speed combinational circuit used for shifting or rotating bits in digital data. Unlike traditional shifters, it allows multi-bit shifts or rotations in a single operation, making it ideal for applications that demand performance.
+
+#### Key Use Cases:
+- Integrated into ALUs of CPUs and DSPs
+- Bit manipulation in cryptography and network processing
+- Floating-point normalization
+- Efficient data encoding/decoding
+
+Its ability to handle both left/right and logical/rotational shifts with minimal delay makes it a critical component in many digital systems.
+
 
 ##  Files Included
 - `barrel_shifter.v` – RTL design
@@ -180,3 +192,4 @@ KLAYOUT
 
    ![Image](https://github.com/user-attachments/assets/9556e958-cf8d-4891-bf13-d16d33587325)
    ![Image](https://github.com/user-attachments/assets/f237838f-6eec-4e4b-994c-7749b2130b97)
+   ![Image](https://github.com/user-attachments/assets/f6b536e3-79b2-4f93-9382-8b688910bea3)
