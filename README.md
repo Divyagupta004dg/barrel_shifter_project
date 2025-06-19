@@ -200,3 +200,22 @@ KLAYOUT
    ![Image](https://github.com/user-attachments/assets/9556e958-cf8d-4891-bf13-d16d33587325)
    ![Image](https://github.com/user-attachments/assets/f237838f-6eec-4e4b-994c-7749b2130b97)
    ![Image](https://github.com/user-attachments/assets/f6b536e3-79b2-4f93-9382-8b688910bea3)
+
+**3. Routing View** (Schematic / DEF)
+What it shows:
+
+    All standard cells from placement remain fixed in position
+
+    Wires are now routed between pins and cells using metal layers
+
+    Vias (vertical connections between metal layers) are also inserted
+
+    Tracks follow the metal1, metal2, metal3, etc. layers and via rules
+
+Purpose:
+
+    Establishes all physical interconnections needed for correct circuit operation
+
+    Prepares the layout for timing checks, parasitics, and final GDS export
+
+Routing is the step where your design becomes electrically connected — like completing the circuit puzzle on silicon.
